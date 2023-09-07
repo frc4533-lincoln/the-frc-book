@@ -23,6 +23,9 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
+      - name: Generate stuff
+        run: |
+          ./scripts/genReleaseLinks.sh
       - name: Build Book
         run: |
           # This assumes your book is in the root of your repository.
