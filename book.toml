@@ -1,0 +1,13 @@
+[book]
+title   = "The FRC Book"
+authors = ["FRC Team 4533 members"]
+src     = "src"
+
+language     = "en"
+multilingual = false
+
+[output.html]
+default-theme        = "ayu"
+preferred-dark-theme = "ayu"
+git-repository-url   = "https://github.com/4533-phoenix/the-frc-book"
+
